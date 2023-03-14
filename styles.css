@@ -1,0 +1,458 @@
+body{
+  overflow-x: hidden;
+  font-family: Poppins;
+}
+html{
+  scroll-behavior: smooth;
+}
+.logo img{
+  padding-right: 40px;
+  padding-left: 30px;
+  padding-top: 5px;
+}
+.maintext{
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+  font-family: Poppins !important;
+  font-weight: 500 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #FD9001 !important;
+}
+.phonenumber{
+  padding-top: 20px;
+}
+.phonenumber img{
+  justify-items: end;
+  padding: 10px;
+}
+.searchcolor{
+  background-color: #4F238E;
+  border: 1px solid white; 
+  color: white;
+  font-family: Poppins;
+  border-radius: 60px;
+  padding: 0.375rem 0.75rem;
+  
+}
+.searchcolor:hover{
+  background-color: #FD9001;
+  border: 1px solid white;
+  color: white;
+}
+.banner {
+  width: 100%;
+  height: 452px;
+  background: url(images/banner1.png) no-repeat;
+  background-size: cover;
+}
+.top-left {
+  font-family: Poppins;
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+  line-height: 55px;
+}
+.top-left1 {
+  background-color: white;
+  border-radius: 30px;
+  padding: 0px 12px 0px 12px;;
+  border: none;
+  font-family: Poppins;
+  font-size: 15px;
+  color: #FD9001;
+  font-weight: 600;
+  cursor: pointer;
+}
+.top-left1:hover {
+  background-color: #FD9001;
+  color: white;
+
+}
+.aboutus{
+  color: black;
+  font-family: Poppins;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+.aboutus img{
+  margin-top: -25px;
+}
+.aboutpara p{
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Poppins;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}
+.webring{
+  background-color: #F6F6F6;
+}
+.bring{
+  color: black;
+  font-family: Poppins;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 60px;
+}
+.bring img{
+  margin-top: -25px;
+}
+.bringpara{
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Poppins;
+  color: black;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.change-icon:hover > .fa + .fa {
+  display: inherit;
+}
+.bringcarousel h4{
+  font-family: Poppins;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+  color: #FD9001;
+  font-weight: 500;
+}
+.bringcarousel p{
+  font-family: Poppins;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+}
+.button-primary {
+  color: #fff;
+  background-color: #4F238E;
+  border-color: #4F238E;
+}
+.button-primary:hover {
+  color: #fff;
+  background-color: #FD9001;
+  border-color: #FD9001;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #4F238E;
+  border-color: #4F238E;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #FD9001;
+  border-color: #FD9001;
+}
+.tasimage img{
+  margin-left: 133px;
+}
+.tasf{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.tas{
+  background-color: #FD9001;
+}
+.tas h2{
+  color: white;
+  font-family: Poppins;
+  text-align: left;
+  font-weight: 600;
+  font-size: 30px;
+  padding-left: 30px;
+}
+.tas p{
+  font-family: Poppins;
+  text-align: left;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+.tas1{
+  padding-left: 30px;
+}
+.tas2{
+  border-radius: 20px;
+  color: black;
+  font-weight: 500;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  background-color: white;
+  font-family: Poppins;
+}
+.tas2:hover{
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  background-color: black;
+  font-family: Poppins;
+}
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Poppins;
+}
+.card-body h5{
+  font-family: Poppins;
+  color: #4F238E;
+}
+.card-body p{
+  font-family: Poppins;
+  font-size: 15px;
+}
+.cloud h5{
+  font-family: Poppins;
+  color: #FD9001;
+}
+.cloud p{
+  font-family: Poppins;
+  font-size: 15px;
+}
+.footer{
+  background-color: #F8F8F8;
+  padding-top: 80px;
+}
+.footer1 h5{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer1 h3{
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 800;
+  color: #4F238E;
+}
+.footer1 p{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.footer2 h5{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 90px;
+}
+.footer2 h3{
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 800;
+  color: #4F238E;
+  padding-left: 90px;
+}
+.footer2 p{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-left: 90px;
+}
+.footer2 img{
+  margin-left: 85px;
+}
+.footer3 p{
+  line-height: 10px;
+  padding-left: 90px;
+  text-decoration: none;
+  color: black;
+}
+.footer3 p:hover{
+  line-height: 10px;
+  color: #FD9001;
+  padding-left: 90px;
+}
+.line{
+  border-top: 1px solid gray;
+}
+.float {
+  display: flex !important;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #FD9001;
+  color: #fff;
+  border-radius: 50px;
+  display: none;
+}
+.float:hover {
+  color: #fff;
+}
+.float-up{
+  display: none !important;
+}
+.my-float {
+  
+  align-self: center;
+  margin-left: 18px;
+}
+.fa-arrow-up:hover {
+  color: white;
+}
+.socialmedia_1{
+  padding-left: 10px;
+  padding-right: 20px;
+}
+.socialmedia{
+  background-color: #4F238E;
+  border: 1px solid white;
+  color: white;
+  font-family: Poppins;
+  border-radius: 200px;
+  padding: 10px;
+}
+.socialmedia:hover{
+  background-color: #FD9001;
+  border: 1px solid white;
+  color: white;
+}
+.button:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  margin-right: 10px;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+  .logo img{
+    padding-right: 20px;
+    padding-left: 0px;
+  }
+  .top-left {
+    font-family: Poppins;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    line-height: 50px;
+  }
+  .top-left1 {
+    background-color: white;
+    border-radius: 30px;
+    padding: 0px 15px 0px 15px;
+    border: none;
+    font-family: Poppins;
+    font-size: 25px;
+    color: #FD9001;
+    font-weight: 600;
+    cursor: pointer;
+  
+  }
+  .top-left1:hover {
+    background-color: #FD9001;
+    border-radius: 30px;
+    padding: 0px 15px 0px 15px;
+    border: none;
+    font-family: Poppins;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  
+  }
+  .aboutus{
+    color: black;
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 60px;
+  }
+  .tasimage img{
+    margin-left: 0px;
+    margin-bottom: -20px;
+  }
+  .footer1 h5, h3, p{
+    padding-left: 15px;
+  }
+  .footer1 p{
+    padding-left: 15px;
+  }
+  .footer2{
+    padding-top: 45px;
+  }
+  .footer2 h5, p{
+    padding-left: 20px;
+  }
+  .footer2 h3{
+    padding-left: 20px;
+  }
+  .footer2 img{
+    margin-left: 20px;
+  }
+  .footer3 p{
+    padding-left: 20px;
+  }
+  .footer3 p:hover{
+    padding-left: 20px;
+  }
+  .socialmedia_1{
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (device-width: 768px) {
+    body {
+      background-color: white;
+      overflow-x: hidden;
+    }
+    .top-left {
+      font-family: Poppins;
+      font-size: 35px;
+      color: white;
+      font-weight: 600;
+      line-height: 50px;
+    }
+    .top-left1 {
+      background-color: white;
+      border-radius: 30px;
+      padding: 0px 15px 0px 15px;
+      border: none;
+      font-family: Poppins;
+      font-size: 30px;
+      color: #FD9001;
+      font-weight: 600;
+      cursor: pointer;
+    
+    }
+    .top-left1:hover {
+      background-color: #FD9001;
+      border-radius: 30px;
+      padding: 0px 15px 0px 15px;
+      border: none;
+      font-family: Poppins;
+      font-size: 30px;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    
+    }
+  .tasimage img{
+    margin-left: 60px;
+    margin-bottom: -20px;
+  }
+}

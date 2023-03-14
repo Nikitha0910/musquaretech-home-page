@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MusquareTech Home Page </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <!-- Nvaigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light logo" id="myHeader">
+        <a href="index.html"><img src="images/musquarelogo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item maintext">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item maintext">
+                    <a class="nav-link" href="#aboutus">About Us</a>
+                </li>
+                <li class="nav-item dropdown maintext">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <div class="dropdown-menu dcolor" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item">Application Development</a>
+                        <a class="dropdown-item">Cloud Migration</a>
+                        <a class="dropdown-item">DevOps</a>
+                        <a class="dropdown-item">TAAS</a>
+                        <a class="dropdown-item">Recuritment & Consulting</a>
+                    </div>
+                </li>
+                <li class="nav-item maintext">
+                    <a class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 phonenumber">
+                <button class="button my-2 my-sm-0 searchcolor" type="phone">
+                    <a href="tel: +91 73861 17982" style="text-decoration: none; color: white;">
+                        <img src="images/phone-call.png" class="phone">+91 73861 17982
+                    </a>
+                </button>
+
+            </form>
+        </div>
+    </nav>
+    <br>
+    <!-- First section of home page -->
+    
+    <div class="banner">
+        <div class="pt-5"></div>
+        <div class="top-left pl-5 pt-5">Get Creative with our <br>Best Application Solutions</div>
+        <div class=" pl-5 pt-5"><a href="#services"><button class="top-left top-left1">CHECK OUR SERVICES</button></a>
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <!-- Second section of home page -->
+    
+    <div class="row" id="aboutus">
+        <div class="col-sm-2 col-md-3"></div>
+        <div class="col-sm-8 col-md-6 aboutus">About Us<br>
+            <img src="images/Rectangle.png" width="100" height="3">
+        </div>
+        <div class="col-sm-2 col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1 col-md-1"></div>
+        <div class="col-sm-10 col-md-10 aboutpara">
+            <p>It is a long established fact that a reader will be distracted by the
+                readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                that it has a more-or-less normal distribution. It is a long established fact that a
+                reader will be distracted by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+            </p>
+        </div>
+        <div class="col-sm-1 col-md-1"></div>
+    </div>
+    <br><br><br><br><br>
+
+    <!-- Third section of the home page -->
+
+    <div class="row webring">
+        <div class="col-sm-1 col-md-1"></div>
+        <div class="col-sm-8 col-md-10 bring">We Bring The Best Things<br>
+            <img src="images/Rectangle.png" width="100" height="3">
+            <p class="bringpara">Musquare can help you with picking out the best people for your company.</p>
+        </div>
+        <div class="col-sm-1 col-md-1"></div>
+
+        <!-- Carousel section -->
+
+        <div class="container">
+            <section class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <!-- Left and Right arrows -->
+                        <div class="col-12 text-right">
+                            <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
+                                data-slide="prev">
+                                <i class="fa fa-arrow-left"></i>
+                            </a>
+                            <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button"
+                                data-slide="next">
+                                <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!-- carousel slides -->
+                        <div class="col-12">
+                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                 <div class="carousel-inner">
+                                    <!-- First 3 coulmns to be displayed -->
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <!-- First card of carousel -->
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="" src="images/Collaboration.jpg">
+                                                    <div class="card-body bringcarousel">
+                                                        <h4 class="card-title">Collaboration</h4>
+                                                        <p class="card-text">Collaboration with experienced people gives
+                                                            you better results</p>
+                                                   </div>
+                                                </div>
+                                            </div>
+                                            <!-- Second card of carousel -->
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="" src="images/Transform To Digital.png">
+                                                    <div class="card-body bringcarousel">
+                                                        <h4 class="card-title">Transform To Digital</h4>
+                                                        <p class="card-text">Digital transformation is the new essential
+                                                            for any business.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Third card of carousel -->
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt=""
+                                                        src="images/Application Development.png">
+                                                    <div class="card-body bringcarousel">
+                                                        <h4 class="card-title">Application Development</h4>
+                                                        <p class="card-text">Application Development with the latest
+                                                            tech stack with one go.</p>
+                                                   </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- Next two coulmns -->
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <!-- Fourth card of carousel -->
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="" src="images/Strategy.png">
+                                                    <div class="card-body bringcarousel">
+                                                        <h4 class="card-title">Strategy</h4>
+                                                        <p class="card-text">Experienced team in laying the strategy to
+                                                            reach your goals.</p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Fifth card of carousel -->
+                                            <div class="col-md-4 mb-3">
+                                                <div class="card">
+                                                    <img class="img-fluid" alt="" src="images/Cloud Migration.png">
+                                                    <div class="card-body bringcarousel">
+                                                        <h4 class="card-title">Cloud Migration</h4>
+                                                        <p class="card-text">Cloud has become the essential part of your
+                                                            digital transformation journey.
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <br><br><br>
+    </div>
+    <br><br><br><br><br><br>
+
+    <!-- Fourth section of the home page -->
+
+    <div class="row">
+        <div class="col-sm-6 col-md-6 tasimage">
+            <img src="images/technology as a services.png" width="100%">
+        </div>
+        <div class="col-sm-6 col-md-6 tasf">
+            <div class="tas">
+                <br><br><br><br>
+                <h2>Technology As A Service</h2>
+                <p>We don’t Just Build Products, We fulfil your Dreams</p>
+                <div class="tas1">
+                    <a><button class="tas2">Reach us to know more</button></a>
+                </div>
+                <br><br><br><br>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+
+<!-- Fifth section of the home page -->
+
+    <div class="row" id="services">
+        <div class="col-sm-2 col-md-3"></div>
+        <div class="col-sm-8 col-md-6 aboutus">Our Key Services<br>
+            <img src="images/Rectangle.png" width="100" height="3">
+            <p class="bringpara">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+        </div>
+        <div class="col-sm-2 col-md-3"></div>
+    </div>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card pt-4">
+                <img src="images/reactnative.png" width="100" height="100" style="align-self: center;">
+                <div class="card-body">
+                    <h5 class="card-title">React Native App Development</h5>
+                    <p class="card-text">Build Native Apps without compromising the User’s experience across platforms
+                    </p>
+                </div>
+            </div>
+            <div class="card pt-4">
+                <img src="images/cloud management.png" width="100" height="100" style="align-self: center;">
+                <div class="card-body cloud">
+                    <h5 class="card-title">Cloud Management</h5>
+                    <p class="card-text">Effectively manage and improve performance of applications in cloud
+                        environments</p>
+                </div>
+            </div>
+            <div class="card pt-4">
+                <img src="images/frontend.png" width="100" height="100" style="align-self: center;">
+                <div class="card-body">
+                    <h5 class="card-title">Front End Development</h5>
+                    <p class="card-text">Blended with latest technologies, design, usability with creativity</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card pt-4">
+                <img src="images/brand identity.png" width="100" height="100" style="align-self: center;">
+                <div class="card-body cloud">
+                    <h5 class="card-title">Brand Identity</h5>
+                    <p class="card-text">We build your brand</p>
+                </div>
+            </div>
+            <div class="card pt-4">
+                <img src="images/data analysis.png" width="100" height="100" style="align-self: center;">
+                <div class="card-body">
+                    <h5 class="card-title">Data Analytics</h5>
+                    <p class="card-text">Information built using Refined and parameterized data</p>
+                </div>
+            </div>
+            <div class="card pt-4">
+                <img src="images/us design.png" width="100" height="100" style="align-self: center;">
+                <div class="card-body cloud">
+                    <h5 class="card-title">UX Design</h5>
+                    <p class="card-text">Giving the human touch to digital presence</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+
+    <!-- Footer section of the home page -->
+    
+    <div class="row footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 footer1">
+                    <h5>MUSQUARETECH</h5>
+                    <h3>Headquarters</h3>
+                    <p>Organically grow the holistic world view of disruptive innovation via empowerment.</p>
+                    <div class="row socialmedia_1">
+                        <button class="button my-2 my-sm-0 socialmedia" type="button">
+                            <a href="#"><img src="images/fb.png"></a>
+                        </button>
+                        <button class="button my-2 my-sm-0 socialmedia" type="button">
+                            <a href="#"><img src="images/instagram.png"></a>
+                        </button>
+                        <button class="button my-2 my-sm-0 socialmedia" type="button">
+                            <a href="#"><img src="images/linkedin.png"></a>
+                        </button>
+                        <button class="button my-2 my-sm-0 socialmedia" type="button">
+                            <a href="#"><img src="images/pinterest.png"></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 footer2">
+                    <h5>CONTACT INFO</h5>
+                    <h3>Where to find us</h3>
+                    <div class="contactinfo mb-3">
+                        <img src="images/location.png" width="25" height="25">
+                        <a href="tel: +91 73861 17982" style="text-decoration: none; color: black;">
+                            <span style="font-family: Poppins; font-size: 15px; margin-bottom: 12px;"
+                                class="contactinfopara">Hyderabad</span></a>
+                    </div>
+                    <div class="contactinfo">
+                        <img src="images/mail.png" width="25" height="25">
+                        <a href="mailto: info@musquaretech.com" style="text-decoration: none; color: black;">
+                            <span style="font-family: Poppins; font-size: 15px; margin-bottom: 12px;"
+                                class="contactinfopara">info@musquaretech.com</span></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 footer2">
+                    <h5>MORE LINKS</h5>
+                    <div class="footer3">
+                        <a href=" " style="text-decoration: none;">
+                            <p>- Have Questions</p>
+                        </a>
+                        <a href="#aboutus" style="text-decoration: none;">
+                            <p>- About Us</p>
+                        </a>
+                        <a href="#" style="text-decoration: none;">
+                            <p>- Privacy & Policies</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="line">
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 footer1"><br>
+                    <p>Copyright by <b>Musquaretech.</b> All rights reserved.</p>
+                </div>
+            </div>
+            <a href="#myHeader" class="float" id="float-up">
+                <i class="fa fa-arrow-up my-float"></i>
+            </a>
+            <br>
+        </div>
+    </div>
+
+</body>
+
+</html>
